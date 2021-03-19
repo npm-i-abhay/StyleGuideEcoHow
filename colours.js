@@ -17,3 +17,7 @@ document.querySelector("#main").innerHTML += selectionParagraph("Secondary", "MO
 document.querySelector("#main").innerHTML += fontSizes();
 document.querySelector("#main").innerHTML += textStyles();
 document.querySelector("#main").innerHTML += missionStatement();
+document.querySelector("#main").innerHTML += globe();
+document.querySelector("#main").innerHTML += logoText();
+document.querySelector("#main").innerHTML += pageHeading();
+document.querySelector("#main").innerHTML += pageHeading("Logo Design");
