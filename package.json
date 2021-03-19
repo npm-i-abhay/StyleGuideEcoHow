@@ -1,0 +1,31 @@
+{
+  "name": "StyleGuideEcoHow",
+  "version": "1.0.0",
+  "description": "This is the repository for the style guide of our application EcoHow",
+  "main": "colours.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marshall-666/StyleGuideEcoHow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marshall-666/StyleGuideEcoHow/issues"
+  },
+  "homepage": "https://github.com/marshall-666/StyleGuideEcoHow#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/html": "^6.1.21",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
+}
