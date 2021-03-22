@@ -2,6 +2,12 @@ document.querySelector("#icon").innerHTML += makeHam();
 document.querySelector("#sideBar").innerHTML += handleNavigation();
 
 
+// home page components
+
+document.querySelector("#mainLogo").innerHTML += mainLogo();
+// 
+
+
 
 
 // logo components

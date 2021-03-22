@@ -50,6 +50,20 @@ main
     background-color: black;
 }
 
+
+/* ================Styling for home page layout Starts here */
+
+#mainLogo
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* ================Styling for home page layout ends here */
+
+
+
+
 /* ================Styling for Logo page layout Starts here */
 
 .wrapper .logoBlob
@@ -142,12 +156,14 @@ main
 .animSpace
 {
     height: 20vh;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 #illustration1
 {
     
-    height: 60vh;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
 }
 
 

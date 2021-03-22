@@ -2,7 +2,7 @@ function laptopLady()
 {
     return `
    <img style="position: relative;
-   left: -10em;" src="./images/lady.png">
+   height:150%;" src="./images/lady.png">
     
     `
 }
