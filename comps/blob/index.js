@@ -20,6 +20,8 @@ function staticBlob (text="Logo Design", left="-15em", height="70%", width="70%"
    font-size:5em;
    width:55%;
    text-align:center;
+   color:#F5F1ED;
+   font-family: 'Chango', cursive;
    object-fit:contain;" > 
         ${text}
     </div>

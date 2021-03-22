@@ -18,7 +18,8 @@ function handleNavigation ()
         text-decoration:none;
         padding:1em;
         transition:all 1s;
-        font-size:1.5em;
+        font-family: 'Chango', cursive;
+        font-size:2em;
        
         color: #F5F1ED;" href="./mainWorkspace.html">
         
@@ -40,9 +41,10 @@ function handleNavigation ()
         <a onmouseover="handleNavigation.handleHover(this)"
         onmouseout="handleNavigation.handleHover2(this)" class="hover"  class="hover" style="
         text-decoration:none;
+        transition:all 1s;
         padding:1em;
-        
-        font-size:1.5em;
+        font-family: 'Chango', cursive;
+        font-size:2em;
         color: #F5F1ED;" href="./mainWorkspaceVoice.html">
         
             Voice
@@ -63,7 +65,9 @@ function handleNavigation ()
         onmouseout="handleNavigation.handleHover2(this)" class="hover"  class="hover" style="
         text-decoration:none;
         padding:1em;
-        font-size:1.5em;
+        transition:all 1s;
+        font-family: 'Chango', cursive;
+        font-size:2em;
         color: #F5F1ED;" href="./mainWorkspaceLogo.html">
         
             Logo
@@ -87,7 +91,9 @@ function handleNavigation ()
         onmouseout="handleNavigation.handleHover2(this)" class="hover"  class="hover" style="
         text-decoration:none;
         padding:1em;
-        font-size:1.5em;
+        transition:all 1s;
+        font-family: 'Chango', cursive;
+        font-size:2em;
         color: #F5F1ED;" href="./mainWorkspaceColors.html">
         
             Color
@@ -108,7 +114,9 @@ function handleNavigation ()
         onmouseout="handleNavigation.handleHover2(this)" class="hover"  style="
         text-decoration:none;
         padding:1em;
-        font-size:1.5em;
+        transition:all 1s;
+        font-family: 'Chango', cursive;
+        font-size:2em;
         color: #F5F1ED;" href="./mainWorkspaceTypography.html">
         
             Typography
@@ -127,17 +135,36 @@ function handleNavigation ()
         onmouseout="handleNavigation.handleHover2(this)" class="hover"  style="
         text-decoration:none;
         padding:1em;
-        font-size:1.5em;
+        transition:all 1s;
+        font-family: 'Chango', cursive;
+        font-size:2em;
         color: #F5F1ED;" href="./mainWorkspaceGraphics.html">
         
             Graphic Illustrations
         
         </a>
         
-       
+        <div style="
+        
+            width:300px;
+            height:.1em;
+            background-color:#F5F1ED;">
+        
+        </div>
         
         
-    
+        <a onmouseover="handleNavigation.handleHover(this)"
+        onmouseout="handleNavigation.handleHover2(this)" class="hover"  style="
+        text-decoration:none;
+        padding:1em;
+        transition:all 1s;
+        font-family: 'Chango', cursive;
+        font-size:2em;
+        color: #F5F1ED;" href="https://www.figma.com/file/j4SWx1tZfqEdTXIxRVTlsp/Prototype?node-id=0%3A1">
+        
+            Figma Prototype
+        
+        </a>
             
     
    
@@ -150,13 +177,13 @@ function handleNavigation ()
  handleNavigation.handleHover = (el) =>
 {
    
-    el.style.color = "red"
+    el.style.color = "#376293"
     el.style.transformOrigin = "left"
 }
  handleNavigation.handleHover2 = (el) =>
 {
    
-    el.style.color = "green"
+    el.style.color = "#F5F1ED"
 }
 
 

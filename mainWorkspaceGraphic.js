@@ -72,18 +72,18 @@ document.querySelector("#ill3").innerHTML += makeIllust("12","30%", "30%");
 document.querySelector("#animationBlob").innerHTML += staticBlob("Animations", "0","50%", "50%", "blob4","-6.5em","0", "0","65em");
 
 document.querySelector("#animCont1").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.gif","50vh", "45vw"  );
+makeAnimComps("0", "The First Home Page Animation to introduce the team ", "./images/team4.gif","50vh", "45vw"  );
 
 document.querySelector("#animCont2").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.gif", "50vh", "45vw" );
+makeAnimComps("1", "Second Animation to Introduce The Concept", "./images/team4.2.gif", "50vh", "45vw" );
 document.querySelector("#animCont3").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.gif", "50vh", "45vw" );
+makeAnimComps("0", "Third Animation to Introduce The Concept", "./images/team4.3.gif", "50vh", "45vw" );
 document.querySelector("#animCont4").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.4.gif", "50vh", "45vw" );
+makeAnimComps("1", "Fourth Animation For Category Selection", "./images/team4.4.gif", "50vh", "45vw" );
 document.querySelector("#animCont5").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.5.gif", "50vh", "45vw" );
+makeAnimComps("0", "Fifth Animation For Category Selection", "./images/team4.5.gif", "50vh", "45vw" );
 document.querySelector("#animCont6").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.gif", "50vh", "45vw" );
+makeAnimComps("1", "Sixth Animation For Results", "./images/team4.gif", "50vh", "45vw" );
 document.querySelector("#animCont7").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.gif", "50vh", "45vw" );
+makeAnimComps("0", "Seventh Animation For Tips", "./images/team4.gif", "50vh", "45vw" );
 

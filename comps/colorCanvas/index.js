@@ -19,7 +19,7 @@ function makeCanvas (bgCol="#21AAB5")
     margin:.5em;
     display:flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:center;
     transition: all 1s;
     background-color:${bgCol};" > 
     
@@ -29,8 +29,30 @@ function makeCanvas (bgCol="#21AAB5")
     height:70%;
     width:70%;" src="./images/dimensions.png">
     
-    <div>
-    aaaaaaaaaaassssss
+    <div style="
+    opacity:1;
+    transition:all 1s;
+    position:relative;
+    right:-10em;
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif;
+    width:50%;" id="rightText">
+    The logo is being displayed over different hues and its only permitted to be used over backgrounds with good contrast 
+    </div>
+    
+    <div style="
+    opacity:0;
+    transition:all 1s;
+   
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif;
+    
+    width:50%
+    font-size:2em;
+    font-family: 'Montserrat', sans-serif" id="wrongText" >
+    
+        Logo is not permitted to be used over this color due to extremely low contrast
+
     </div>
 
     </div>

@@ -1,4 +1,4 @@
-function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever the fuck", url="./images/stacked.png", high="90%", wide="90%")
+function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever the fuck", url="./images/stacked.png", high="90%", wide="90%", logName="whatever", logCol="#F5F1ED")
 {
     return `
     
@@ -19,6 +19,8 @@ function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever t
     height:50vh;
     width:45vw;
     display:flex;
+    font-size:3em;
+    margin:1em;
     justify-content:center;
     align-items:center;
     order:${placement};
@@ -38,9 +40,11 @@ function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever t
     display:flex;
     flex-direction:column;
     align-items:center;
+    // font-family:Georgia;
+    color:${logCol};
     border-radius:2em;"> 
     
-    <h2> whatever</h2>
+    <h1> ${logName}</h1>
 
     <img style="
     object-fit:contain;

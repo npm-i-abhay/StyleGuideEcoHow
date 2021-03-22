@@ -19,6 +19,10 @@ function makeAnimComps (placement="0", divText="whatever the fuck", url="./image
     height:50vh;
     width:40vw;
     display:flex;
+    font-size:2em;
+    width:50%;
+    margin-left:2.5em;
+
     justify-content:center;
     align-items:center;
     order:${placement};

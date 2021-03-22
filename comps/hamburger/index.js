@@ -9,7 +9,7 @@ function makeHam ()
     height:.3em;
     width:50px;
     margin:.5em;
-    background-color:orange;
+    background-color:#376293;
     transition:all 1s;" > 
     </div>
 
@@ -17,7 +17,7 @@ function makeHam ()
     height:.3em;
     width:50px;
     margin:.5em;
-    background-color:orange;
+    background-color:#21aab5;
     transition:all 1s;" > 
     </div>
 
@@ -25,7 +25,7 @@ function makeHam ()
     height:.3em;
     width:50px;
     margin:.5em;
-    background-color:orange;
+    background-color:#5eba92;
     transition:all 1s;" > 
     </div>
     

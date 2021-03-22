@@ -4,7 +4,7 @@ html,body
     height:100vh;
     width: 100vw;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main 
@@ -16,7 +16,13 @@ main
    
 }
 
-
+h1
+{
+    font-size: 3em;
+    font-family: 'Chango', cursive;
+    margin-left: 1em ;
+    /* margin-top: -.2em; */
+}
 
 
 .header
@@ -25,6 +31,8 @@ main
     
     display: flex;
     justify-content: space-between;
+    
+    /* align-items: flex-start; */
     position: relative;
 }
 
@@ -121,11 +129,17 @@ main
 .colors 
 {
     height: 10vh;
-    background-color: lightsteelblue; 
-    margin-top: .2em;
+    /* background-color: lightsteelblue;  */
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     /* justify-content: space-around; */
+}
+
+
+#dot1,#dot2,#dot3,#dot4,#dot5
+{
+    margin: 1em;
 }
 
 /* ================Styling for Logo page layout ends here============= */
@@ -139,18 +153,17 @@ main
 .missionTagLine
 {
     display: flex;
-    position: relative;
-    
-    /* height: 70vh; */
-    /* width: 100vw; */
-    /* border: 1px solid black; */
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #missionGlobe
 {
     position: relative;
     left: 30em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .animSpace
@@ -164,6 +177,7 @@ main
     height: 80vh;
     display: flex;
     justify-content: flex-end;
+    margin: 10em 3em 15em 0;
 }
 
 
@@ -178,18 +192,25 @@ main
     display: flex;
     flex-direction: column;
     font-size: 40px;
+    
     align-items: flex-start;
+    margin: 0 1em 0 1em;
     
 }
 #paraText p {
     width: 50%;
 }
+#paraText h1,  #paraText3 h1
+{
+    margin-left: -.1em;
+}
+
  #paraText2 
 {
     display: flex;
     flex-direction: column;
     font-size: 40px;
-    
+    /* margin: 0 1em 0 1em; */
     align-items: flex-end;
     
 }
@@ -205,6 +226,7 @@ main
     flex-direction: column;
     font-size: 40px;
     align-items: flex-start;
+    margin: 0 1em 0 1em;
     
 }
 
@@ -221,7 +243,7 @@ main
     /* justify-self: right; */
     text-align: right;
     align-items: flex-end;
-    
+    margin: 0 1em 0 1em;
 }
 
 #paraText4 p 
@@ -389,6 +411,13 @@ main
 
  /* styling ========== for color page starts here=========== */
 
+
+#colHeading
+{
+    color: #F5F1ED;
+    margin-top: -.1em;
+}
+
 .infoFlex
 {
     display: flex;
@@ -492,6 +521,12 @@ main
 
 /* =========styling for typography================  */
 
+
+#typeHead
+{
+    color: #326293;
+    margin-top: -.1em;
+}
 
 .blob
 {

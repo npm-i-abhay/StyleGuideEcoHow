@@ -1,4 +1,4 @@
-function handleColor (bgColor= "#F7D488")
+function handleColor (bgColor= "#F7D488", bord="none")
 {
     return `
     <div id="circle" onclick="handleColor.giveShadow(this)" style="
@@ -6,7 +6,7 @@ function handleColor (bgColor= "#F7D488")
     width:2.5em;
     border-radius:2em;
     margin-right:.3em;
-  
+    border:${bord};
     background-color:${bgColor};
     transition:all 1s;">
 
