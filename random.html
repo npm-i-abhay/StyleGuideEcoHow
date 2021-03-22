@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div style="display: flex; " >
+   <div  style="position: relative;transition: all 1s; left: -300px;"id="whatever"></div>
+   <div onclick="moveNavigation('')" id="whatever2"></div>
+
+   <div id="colorDot1" ></div>
+   <div id="colorDot2" ></div>
+   <div id="canvas"></div>     
+   
+   <div style=" 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:50vh;"> 
+        <div id="logoCont"></div>     
+        <div id="logoCont2"></div>     
+        <div id="logoCont3"></div>     
+    </div>
+    
+    
+</div>
+<div id="slide"> </div>
+<script src="./comps/navBar/index.js"></script>
+<script src="./comps/hamburger/index.js"></script>
+<script src="./comps/colorDots/index.js"></script>
+<script src="./comps/colorCanvas/index.js"></script>
+<script src="./comps/slider/index.js"></script>
+<script src="./comps/logoRules/index.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>

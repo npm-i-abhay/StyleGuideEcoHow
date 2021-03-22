@@ -1,5 +1,3 @@
-
-
 document.querySelector(".col1").innerHTML += colourSwatch();
 document.querySelector(".col2").innerHTML += colourSwatch("class2","#21AAB5", "moveSwatch2");
 document.querySelector(".col3").innerHTML += colourSwatch("class3","#5EBA92", "moveSwatch3");

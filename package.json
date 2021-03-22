@@ -2,7 +2,7 @@
   "name": "StyleGuideEcoHow",
   "version": "1.0.0",
   "description": "This is the repository for the style guide of our application EcoHow",
-  "main": "colours.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",

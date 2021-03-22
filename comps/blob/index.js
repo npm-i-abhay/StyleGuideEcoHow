@@ -1,26 +1,29 @@
-function staticBlob ()
+function staticBlob (text="Logo Design", left="-15em", height="70%", width="70%", src="blob", top="-7em", leftt="-1em", top1="",left1="" )
 {
     return `
-   <div>
+    <div style="
+    position:relative;
+    top:${top1};
+    left:${left1};" >
    <img style="
    object-fit:contain;
    position:relative;
-   left:-40em;
-   height:110%;
-   width:140%;
-   " src="./images/blob.png">
+   left:${left};
+   height:${height};
+   width:${width};
+   " src="./images/${src}.png">
    
-    <p style="
-    position:relative;
-    color:#F5F1ED;
-    font-size:6em;
-    top: -7em;
-    left:1em;
-
-    ">
-    Chango
-    </p>
-  </div>
-
+   <div style="
+   position:relative;
+   top:${top};
+   left:${leftt};
+   font-size:5em;
+   width:55%;
+   text-align:center;
+   object-fit:contain;" > 
+        ${text}
+    </div>
+   
+    </div>
     `
 }

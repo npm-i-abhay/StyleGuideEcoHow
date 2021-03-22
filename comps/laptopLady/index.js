@@ -1,7 +1,8 @@
 function laptopLady()
 {
     return `
-   <img src="../images/laptopLady.png">
+   <img style="position: relative;
+   left: -10em;" src="./images/lady.png">
     
     `
 }
