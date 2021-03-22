@@ -75,15 +75,15 @@ document.querySelector("#animCont1").innerHTML +=
 makeAnimComps("0", "blah blah", "./images/team4.gif","50vh", "45vw"  );
 
 document.querySelector("#animCont2").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.gif",  );
+makeAnimComps("1", "blah blah", "./images/team4.gif", "50vh", "45vw" );
 document.querySelector("#animCont3").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.gif",  );
+makeAnimComps("0", "blah blah", "./images/team4.gif", "50vh", "45vw" );
 document.querySelector("#animCont4").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.4.gif",  );
+makeAnimComps("1", "blah blah", "./images/team4.4.gif", "50vh", "45vw" );
 document.querySelector("#animCont5").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.5.gif",  );
+makeAnimComps("0", "blah blah", "./images/team4.5.gif", "50vh", "45vw" );
 document.querySelector("#animCont6").innerHTML += 
-makeAnimComps("1", "blah blah", "./images/team4.gif",  );
+makeAnimComps("1", "blah blah", "./images/team4.gif", "50vh", "45vw" );
 document.querySelector("#animCont7").innerHTML += 
-makeAnimComps("0", "blah blah", "./images/team4.gif",  );
+makeAnimComps("0", "blah blah", "./images/team4.gif", "50vh", "45vw" );
 

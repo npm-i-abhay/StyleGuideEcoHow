@@ -37,7 +37,8 @@ function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever t
     background-color:${bgColor};
     display:flex;
     flex-direction:column;
-    align-items:center;"> 
+    align-items:center;
+    border-radius:2em;"> 
     
     <h2> whatever</h2>
 

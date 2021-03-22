@@ -34,12 +34,14 @@ function makeAnimComps (placement="0", divText="whatever the fuck", url="./image
     <div style="
     height:50vh;
     width:40vw;
+    border-radius:2em;
     
     align-items:center;"> 
 
     <img style="
     object-fit:contain;
     height:${high};
+    border-radius:2em;
     width:${wide}" src="${url}">
 
 
