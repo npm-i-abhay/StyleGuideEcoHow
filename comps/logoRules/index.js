@@ -4,19 +4,19 @@ function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever t
     
     <div style="
     display:flex;
-    height:40em;
+    height:50vh;
     width: 90vw; 
     background-color:none;
     // border:2px solid black;
     justify-content:space-between;
     align-items:center;
-    margin-bottom:1em;
+    margin-bottom:.5em;
     position:relative;
     
     left:5em;" > 
 
     <div style="
-    height:40em;
+    height:50vh;
     width:45vw;
     display:flex;
     justify-content:center;
@@ -32,7 +32,7 @@ function makeRuleContainer (placement="0", bgColor="#F7D488",divText="whatever t
     
 
     <div style="
-    height:40em;
+    height:50vh;
     width:45vw;
     background-color:${bgColor};
     display:flex;

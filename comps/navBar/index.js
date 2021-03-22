@@ -43,7 +43,7 @@ function handleNavigation ()
         padding:1em;
         
         font-size:1.5em;
-        color: #F5F1ED;" href="#">
+        color: #F5F1ED;" href="./mainWorkspaceVoice.html">
         
             Voice
         

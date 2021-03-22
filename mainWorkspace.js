@@ -26,11 +26,13 @@ document.querySelector("#dot2").innerHTML += handleColor("#21AAB5");
 document.querySelector("#dot3").innerHTML += handleColor("#5EBA92");
 document.querySelector("#dot4").innerHTML += handleColor("#F5F1ED");
 document.querySelector("#dot5").innerHTML += handleColor("#F7D488");
-
+document.querySelector("#logoBlob").innerHTML += staticBlob();
 // logo components ends here==========================
 
 
+// mission/value components starts here=====
 
+// mission/value components ends here=====
 
 
 

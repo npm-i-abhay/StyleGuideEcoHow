@@ -4,7 +4,7 @@ html,body
     height:100vh;
     width: 100vw;
     box-sizing: border-box;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main 
@@ -22,7 +22,7 @@ main
 .header
 {
     height: 5em;
-    background-color: blanchedalmond;
+    
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -51,9 +51,9 @@ main
 
 .wrapper .logoBlob
 {
-    height:40vh;
+    height:60vh;
     width: 100vw;
-    background-color: lightblue;
+    border: 1px solid black;
     
 }
 
@@ -65,9 +65,19 @@ main
     /* background-color: lightcoral; */
 }
 
+
+.divider 
+{
+    display: flex;
+    position: relative;
+    left: 0em;
+    justify-content: center;
+
+}
+
 .rules
 {
-    height: 40em;
+    height: 50vh;
     /* background-color: lightsalmon; */
     margin: 1em;
     /* border: 2px solid black; */
@@ -100,3 +110,133 @@ main
     justify-content: center;
     /* justify-content: space-around; */
 }
+
+/* ================Styling for Logo page layout ends here============= */
+
+
+
+
+
+/*====== styling for Voice page starts here =========== */
+
+.missionTagLine
+{
+    display: flex;
+    position: relative;
+    
+    /* height: 70vh; */
+    /* width: 100vw; */
+    border: 1px solid black;
+    justify-content: center;
+}
+
+#missionGlobe
+{
+    position: relative;
+    left: 30em;
+}
+
+.animSpace
+{
+    height: 20vh;
+    background-color: lightblue;
+}
+#illustration1
+{
+    
+    height: 60vh;
+}
+
+
+.value 
+{
+    height: 50vh;
+    background-color: lightseagreen;
+}
+
+#paraText
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: flex-start;
+    
+}
+#paraText p {
+    width: 50%;
+}
+ #paraText2 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    
+    align-items: flex-end;
+    
+}
+
+#paraText2 p 
+{
+    width: 50%;
+}
+ 
+#paraText3 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: flex-start;
+    
+}
+
+#paraText3 p 
+{
+    width: 50%;
+}
+
+#paraText4 
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    /* justify-self: right; */
+    text-align: right;
+    align-items: flex-end;
+    
+}
+
+#paraText4 p 
+{
+    width: 50%;
+}
+
+
+
+
+.voice1 
+{
+    height: 100em;
+    background-color: rgb(220, 149, 105);
+}
+.voice2 
+{
+    height: 100vh;
+    background-color: lightseagreen;
+}
+.voice3
+{
+    height: 50vh;
+    background-color: lightseagreen;
+    
+}
+
+
+
+
+.careCompassion, .mindful, .progress
+{
+    display: flex;
+    flex-direction: column;
+    /* height: 70vh; */
+}
+
