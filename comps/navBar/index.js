@@ -88,7 +88,7 @@ function handleNavigation ()
         text-decoration:none;
         padding:1em;
         font-size:1.5em;
-        color: #F5F1ED;" href="#">
+        color: #F5F1ED;" href="./mainWorkspaceColors.html">
         
             Color
         
@@ -109,9 +109,9 @@ function handleNavigation ()
         text-decoration:none;
         padding:1em;
         font-size:1.5em;
-        color: #F5F1ED;" href="#">
+        color: #F5F1ED;" href="./mainWorkspaceTypography.html">
         
-            Typogrpahy
+            Typography
         
         </a>
         
@@ -128,7 +128,7 @@ function handleNavigation ()
         text-decoration:none;
         padding:1em;
         font-size:1.5em;
-        color: #F5F1ED;" href="#">
+        color: #F5F1ED;" href="./mainWorkspaceGraphics.html">
         
             Graphic Illustrations
         

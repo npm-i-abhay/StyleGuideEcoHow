@@ -1,4 +1,4 @@
-function colourSwatch(bgcolor="#326293", animName="moveSwatches",)
+function colourSwatch(className="class1" ,bgcolor="#326293", animName="moveSwatches",)
 {
     return `
     <div style="
@@ -11,20 +11,18 @@ function colourSwatch(bgcolor="#326293", animName="moveSwatches",)
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;"
-    transform-origin:center;
     "
-    id="swatch"
-    onclick="colourSwatch.alignSwatches()"
+    class=${className}
     >
     
     </div>
     
     `
 }
-colourSwatch.alignSwatches = () => {
-    document.getElementsByClassName(".col2").innerHTML.style.left="0px";
 
-}
+
+
+
 
 
 //export const colour = colourSwatch();

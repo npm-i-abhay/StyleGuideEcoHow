@@ -1,0 +1,8 @@
+document.querySelector(".changoContainer-1").innerHTML += typeBox("CHANGO is the font we have selected for our logo typeface, as well as our application headers", "We chose this font as it produces a friendly and familiar feeling. Additionally, it allows headings and titles to stand out.", "Primary Typeface","62em","40em","60px" )
+document.querySelector(".changoContainer-2").innerHTML += typeBox("Regular", "-Headings");
+document.querySelector(".changoContainer-2").innerHTML += typeBox("H1 - 48","H2 - 24");
+document.querySelector(".montserratContainer-1").innerHTML += typeBox("MONTSERRAT is the font we have selected for our the majority of our application content, this comprises of the headers, main text, quiz section text, hint text and button labels. We alternate between different text style and sizes to allow for the text to be easily absorbed by the user.", "We chose this font for its clean appearance and making our app interface easily readable","Secondary Typeface","62em","40em","60px","#5EBA92" )
+document.querySelector(".montserratContainer-2").innerHTML += typeBox2();
+document.querySelector(".montserratContainer-2").innerHTML += typeBox(text1="Hint text -24px", text2="Quiz/Evaluation sections - 16px", heading="Sizing", width="30em", height="50em", fontSize="48px",bgcolor="#5EBA92", "Button Labels - 14px");
+document.querySelector(".blob").innerHTML += staticBlob("Chango", "0","90%", "90%", "blob2","-5.5em","3em", "0","-20em"); 
+document.querySelector(".blob2").innerHTML += staticBlob("Montserrat", "0","90%", "90%", "blob1","-6em","3em", "0","65em"); 
